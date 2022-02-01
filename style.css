@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+input {
+    background-color: #252c33;
+    border-radius: 10px;
+    border: none;
+    padding: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5),
+    0 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    color: seashell;
+}
+.card {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #485461 0%, #485461 0%);
+    display: flex;
+    padding: 2rem;
+    border-radius: 20px;
+    border: solid 1px rgba(247, 247, 221, 0.863);
+    width: 750px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5),
+     0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.avatar {
+    border: solid 10px  #28313b8f;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.user_info {
+    margin-left: 2rem;
+    color: #fff;
+}
+.user_info h2 {
+    margin-top: 0;
+}
+.user_info ul {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+/* .user_info ul li {
+    display: flex;
+    justify-items: center;
+} */
+.user_info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+.repo {
+    display: inline-block;
+    background-color: #7f5a83;
+    padding: 0.25rem 0.5rem;
+    color:  thistle;
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+}
